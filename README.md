@@ -87,6 +87,9 @@ public class WelcomeEmailTest extends BaseEmailTest {
 - Tests call `EmailService` / `EmailAssert`, never the Mailosaur SDK directly.
 - Groups: `unit`, `integration`, `smoke`, `extended` (slower checks such as link reachability).
 
+Project Purpose:
+This project demonstrates reusable test automation design, email-content validation, OTP extraction, attachment handling, and Maven-based test execution.
+
 ## Ideas for next steps
 
 Spam-score analysis, rendering checks across email clients, a Selenium page object feeding `AppEmailTrigger`, RestAssured-based triggers, Allure instead of Extent.
