@@ -42,6 +42,13 @@ src/test/resources          testng.xml (all), smoke.xml, unit.xml
 
 ## Run
 
+$env:MAILOSAUR_API_KEY = ""
+$env:MAILOSAUR_SERVER_ID = "a30gmnru"
+
+mvn clean test                          # full suite
+mvn clean test "-Dsuite=unit.xml"       # offline unit tests only
+mvn clean test "-Denv=staging"          # use config-staging.properties
+
 ```bash
 mvn test                          # everything (integration skips if no credentials)
 mvn test -Dsuite=unit.xml         # offline utilities only
