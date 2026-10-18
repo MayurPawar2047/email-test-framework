@@ -1,0 +1,8 @@
+2026-10-18 20:40:01.352 [main] INFO  com.qa.email.reporting.TestListener - START  subjectMatches
+2026-10-18 20:40:01.606 [main] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:40:02.704 [main] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:40:02.735 [main] INFO  com.qa.email.reporting.TestListener - PASS   subjectMatches
+2026-10-18 20:40:02.740 [main] INFO  com.qa.email.reporting.TestListener - START  otpIsPresent
+2026-10-18 20:40:02.740 [main] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:40:03.704 [main] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:40:03.706 [main] INFO  com.qa.email.reporting.TestListener - PASS   otpIsPresent

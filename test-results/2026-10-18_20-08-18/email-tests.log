@@ -1,0 +1,141 @@
+2026-10-18 20:08:18.631 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  detectsInsecureLinks
+2026-10-18 20:08:18.631 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsEightDigitOtpFromSentence
+2026-10-18 20:08:18.858 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsEightDigitOtpFromSentence
+2026-10-18 20:08:18.864 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsSixDigitCode
+2026-10-18 20:08:18.865 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsSixDigitCode
+2026-10-18 20:08:18.866 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsTwoLettersSixDigitsCode
+2026-10-18 20:08:18.866 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsTwoLettersSixDigitsCode
+2026-10-18 20:08:18.867 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  requireFailsWithReadableMessage
+2026-10-18 20:08:18.871 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   requireFailsWithReadableMessage
+2026-10-18 20:08:18.873 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  returnsEmptyInsteadOfThrowingWhenNoMatch
+2026-10-18 20:08:18.873 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   returnsEmptyInsteadOfThrowingWhenNoMatch
+2026-10-18 20:08:18.924 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   detectsInsecureLinks
+2026-10-18 20:08:18.925 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  findsLinkByHrefFragment
+2026-10-18 20:08:18.926 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   findsLinkByHrefFragment
+2026-10-18 20:08:18.927 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  findsLinkByVisibleText
+2026-10-18 20:08:18.927 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   findsLinkByVisibleText
+2026-10-18 20:08:18.927 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  mailtoIsNotAWebLink
+2026-10-18 20:08:18.928 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   mailtoIsNotAWebLink
+2026-10-18 20:08:19.143 [main] INFO  com.qa.email.reporting.ExtentManager - Report saved to C:\Users\Mayur Pawar\eclipse-workspace\email-test-framework\test-results\2026-10-18_20-08-18\email-test-report.html
+2026-10-18 20:08:19.185 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  containsExpectedLink
+2026-10-18 20:08:19.185 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  bodyContainsExpectedText
+2026-10-18 20:08:19.185 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - START  attachmentIsDownloadable
+2026-10-18 20:08:19.188 [TestNG-test-Integration-2] WARN  com.qa.email.reporting.TestListener - SKIP   bodyContainsExpectedText (Config 'expect.body.text' not set - skipping)
+2026-10-18 20:08:19.188 [TestNG-test-Integration-3] WARN  com.qa.email.reporting.TestListener - SKIP   containsExpectedLink (Config 'expect.link.contains' not set - skipping)
+2026-10-18 20:08:19.188 [TestNG-test-Integration-1] WARN  com.qa.email.reporting.TestListener - SKIP   attachmentIsDownloadable (Config 'expect.attachment.name' not set - skipping)
+2026-10-18 20:08:19.189 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  imagesHaveAltText
+2026-10-18 20:08:19.189 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - START  otpIsPresent
+2026-10-18 20:08:19.189 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  linksAreReachable
+2026-10-18 20:08:19.190 [TestNG-test-Integration-1] WARN  com.qa.email.reporting.TestListener - SKIP   otpIsPresent (Config 'expect.otp.regex' not set - skipping)
+2026-10-18 20:08:19.195 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:08:19.195 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:08:38.990 [TestNG-test-Integration-2] ERROR com.qa.email.reporting.TestListener - FAIL   imagesHaveAltText
+com.mailosaur.MailosaurException: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+	at com.mailosaur.Messages.search(Messages.java:338) ~[mailosaur-java-8.0.0.jar:?]
+	at com.mailosaur.Messages.get(Messages.java:52) ~[mailosaur-java-8.0.0.jar:?]
+	at com.qa.email.service.EmailService.search(EmailService.java:75) ~[classes/:?]
+	at com.qa.email.service.EmailService.waitForEmail(EmailService.java:58) ~[classes/:?]
+	at com.qa.email.base.BaseEmailTest.obtainEmail(BaseEmailTest.java:50) ~[test-classes/:?]
+	at com.qa.email.tests.EmailContentTest.imagesHaveAltText(EmailContentTest.java:31) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-10-18 20:08:39.019 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  senderMatches
+2026-10-18 20:08:39.020 [TestNG-test-Integration-2] WARN  com.qa.email.reporting.TestListener - SKIP   senderMatches (Config 'expect.sender' not set - skipping)
+2026-10-18 20:08:39.024 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  subjectMatches
+2026-10-18 20:08:39.024 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:08:39.073 [TestNG-test-Integration-3] ERROR com.qa.email.reporting.TestListener - FAIL   linksAreReachable
+com.mailosaur.MailosaurException: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+	at com.mailosaur.Messages.search(Messages.java:338) ~[mailosaur-java-8.0.0.jar:?]
+	at com.mailosaur.Messages.get(Messages.java:52) ~[mailosaur-java-8.0.0.jar:?]
+	at com.qa.email.service.EmailService.search(EmailService.java:75) ~[classes/:?]
+	at com.qa.email.service.EmailService.waitForEmail(EmailService.java:58) ~[classes/:?]
+	at com.qa.email.base.BaseEmailTest.obtainEmail(BaseEmailTest.java:50) ~[test-classes/:?]
+	at com.qa.email.tests.EmailLinkTest.linksAreReachable(EmailLinkTest.java:35) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-10-18 20:08:39.077 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  noInsecureLinks
+2026-10-18 20:08:39.078 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:08:58.242 [TestNG-test-Integration-2] ERROR com.qa.email.reporting.TestListener - FAIL   subjectMatches
+com.mailosaur.MailosaurException: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+	at com.mailosaur.Messages.search(Messages.java:338) ~[mailosaur-java-8.0.0.jar:?]
+	at com.mailosaur.Messages.get(Messages.java:52) ~[mailosaur-java-8.0.0.jar:?]
+	at com.qa.email.service.EmailService.search(EmailService.java:75) ~[classes/:?]
+	at com.qa.email.service.EmailService.waitForEmail(EmailService.java:58) ~[classes/:?]
+	at com.qa.email.base.BaseEmailTest.obtainEmail(BaseEmailTest.java:50) ~[test-classes/:?]
+	at com.qa.email.tests.EmailContentTest.subjectMatches(EmailContentTest.java:13) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-10-18 20:08:58.273 [TestNG-test-Integration-3] ERROR com.qa.email.reporting.TestListener - FAIL   noInsecureLinks
+com.mailosaur.MailosaurException: No matching messages found in time. By default, only messages received in the last hour are checked (use receivedAfter to override this).
+	at com.mailosaur.Messages.search(Messages.java:338) ~[mailosaur-java-8.0.0.jar:?]
+	at com.mailosaur.Messages.get(Messages.java:52) ~[mailosaur-java-8.0.0.jar:?]
+	at com.qa.email.service.EmailService.search(EmailService.java:75) ~[classes/:?]
+	at com.qa.email.service.EmailService.waitForEmail(EmailService.java:58) ~[classes/:?]
+	at com.qa.email.base.BaseEmailTest.obtainEmail(BaseEmailTest.java:50) ~[test-classes/:?]
+	at com.qa.email.tests.EmailLinkTest.noInsecureLinks(EmailLinkTest.java:29) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]

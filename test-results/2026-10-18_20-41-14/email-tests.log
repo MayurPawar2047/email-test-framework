@@ -1,0 +1,77 @@
+2026-10-18 20:41:14.391 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsEightDigitOtpFromSentence
+2026-10-18 20:41:14.391 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  detectsInsecureLinks
+2026-10-18 20:41:14.613 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsEightDigitOtpFromSentence
+2026-10-18 20:41:14.619 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsSixDigitCode
+2026-10-18 20:41:14.619 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsSixDigitCode
+2026-10-18 20:41:14.620 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsTwoLettersSixDigitsCode
+2026-10-18 20:41:14.621 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsTwoLettersSixDigitsCode
+2026-10-18 20:41:14.621 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  requireFailsWithReadableMessage
+2026-10-18 20:41:14.624 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   requireFailsWithReadableMessage
+2026-10-18 20:41:14.625 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  returnsEmptyInsteadOfThrowingWhenNoMatch
+2026-10-18 20:41:14.626 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   returnsEmptyInsteadOfThrowingWhenNoMatch
+2026-10-18 20:41:14.697 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   detectsInsecureLinks
+2026-10-18 20:41:14.698 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  findsLinkByHrefFragment
+2026-10-18 20:41:14.699 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   findsLinkByHrefFragment
+2026-10-18 20:41:14.699 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  findsLinkByVisibleText
+2026-10-18 20:41:14.700 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   findsLinkByVisibleText
+2026-10-18 20:41:14.700 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  mailtoIsNotAWebLink
+2026-10-18 20:41:14.701 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   mailtoIsNotAWebLink
+2026-10-18 20:41:14.904 [main] INFO  com.qa.email.reporting.ExtentManager - Report saved to C:\Users\Mayur Pawar\eclipse-workspace\email-test-framework\test-results\2026-10-18_20-41-14\email-test-report.html
+2026-10-18 20:41:14.940 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  containsExpectedLink
+2026-10-18 20:41:14.940 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  bodyContainsExpectedText
+2026-10-18 20:41:14.940 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - START  attachmentIsDownloadable
+2026-10-18 20:41:14.949 [TestNG-test-Integration-1] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:14.949 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:14.949 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:16.073 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:16.073 [TestNG-test-Integration-1] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:16.074 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - PASS   containsExpectedLink
+2026-10-18 20:41:16.075 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  linksAreReachable
+2026-10-18 20:41:16.075 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:16.090 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:16.091 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - PASS   bodyContainsExpectedText
+2026-10-18 20:41:16.092 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  imagesHaveAltText
+2026-10-18 20:41:16.093 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:17.061 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:17.082 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:17.125 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - PASS   imagesHaveAltText
+2026-10-18 20:41:17.125 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  senderMatches
+2026-10-18 20:41:17.125 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:17.558 [TestNG-test-Integration-1] INFO  com.qa.email.service.EmailService - Saved attachment dummy_bank_statement.pdf to C:\Users\Mayur Pawar\eclipse-workspace\email-test-framework\target\downloads\dummy_bank_statement.pdf
+2026-10-18 20:41:17.567 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - PASS   attachmentIsDownloadable
+2026-10-18 20:41:17.569 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - START  otpIsPresent
+2026-10-18 20:41:17.569 [TestNG-test-Integration-1] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:17.902 [TestNG-test-Integration-3] ERROR com.qa.email.reporting.TestListener - FAIL   linksAreReachable
+java.lang.AssertionError: [broken links] 
+Expecting empty but was: ["[https://example.com/transaction] -> https://example.com/transaction"]
+	at com.qa.email.tests.EmailLinkTest.linksAreReachable(EmailLinkTest.java:47) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) [testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22) [testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-10-18 20:41:17.908 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  noInsecureLinks
+2026-10-18 20:41:17.909 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:18.049 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:18.049 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - PASS   senderMatches
+2026-10-18 20:41:18.050 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  subjectMatches
+2026-10-18 20:41:18.050 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Waiting up to 20000 ms for email (server=a30gmnru)
+2026-10-18 20:41:18.440 [TestNG-test-Integration-1] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:18.441 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - PASS   otpIsPresent
+2026-10-18 20:41:18.837 [TestNG-test-Integration-3] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:18.837 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - PASS   noInsecureLinks
+2026-10-18 20:41:19.021 [TestNG-test-Integration-2] INFO  com.qa.email.service.EmailService - Received email 'Transaction Alert: Funds Transfer Successful' (id=01a14f88-0f07-40f7-896a-5ff4f1af9234)
+2026-10-18 20:41:19.021 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - PASS   subjectMatches

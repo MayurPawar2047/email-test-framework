@@ -1,0 +1,35 @@
+2026-10-18 21:07:48.159 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsEightDigitOtpFromSentence
+2026-10-18 21:07:48.160 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  detectsInsecureLinks
+2026-10-18 21:07:48.396 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsEightDigitOtpFromSentence
+2026-10-18 21:07:48.403 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsSixDigitCode
+2026-10-18 21:07:48.404 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsSixDigitCode
+2026-10-18 21:07:48.404 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  extractsTwoLettersSixDigitsCode
+2026-10-18 21:07:48.405 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   extractsTwoLettersSixDigitsCode
+2026-10-18 21:07:48.406 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  requireFailsWithReadableMessage
+2026-10-18 21:07:48.409 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   requireFailsWithReadableMessage
+2026-10-18 21:07:48.410 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - START  returnsEmptyInsteadOfThrowingWhenNoMatch
+2026-10-18 21:07:48.410 [TestNG-test-Unit-2] INFO  com.qa.email.reporting.TestListener - PASS   returnsEmptyInsteadOfThrowingWhenNoMatch
+2026-10-18 21:07:48.552 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   detectsInsecureLinks
+2026-10-18 21:07:48.553 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  findsLinkByHrefFragment
+2026-10-18 21:07:48.553 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   findsLinkByHrefFragment
+2026-10-18 21:07:48.554 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  findsLinkByVisibleText
+2026-10-18 21:07:48.554 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   findsLinkByVisibleText
+2026-10-18 21:07:48.555 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - START  mailtoIsNotAWebLink
+2026-10-18 21:07:48.555 [TestNG-test-Unit-1] INFO  com.qa.email.reporting.TestListener - PASS   mailtoIsNotAWebLink
+2026-10-18 21:07:48.770 [main] INFO  com.qa.email.reporting.ExtentManager - Report saved to C:\Users\Mayur Pawar\eclipse-workspace\email-test-framework\test-results\2026-10-18_21-07-48\email-test-report.html
+2026-10-18 21:07:48.779 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  bodyContainsExpectedText
+2026-10-18 21:07:48.779 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  containsExpectedLink
+2026-10-18 21:07:48.779 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - START  attachmentIsDownloadable
+2026-10-18 21:07:48.779 [TestNG-test-Integration-3] WARN  com.qa.email.reporting.TestListener - SKIP   containsExpectedLink (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.779 [TestNG-test-Integration-2] WARN  com.qa.email.reporting.TestListener - SKIP   bodyContainsExpectedText (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.780 [TestNG-test-Integration-1] WARN  com.qa.email.reporting.TestListener - SKIP   attachmentIsDownloadable (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.780 [TestNG-test-Integration-3] INFO  com.qa.email.reporting.TestListener - START  noInsecureLinks
+2026-10-18 21:07:48.780 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  imagesHaveAltText
+2026-10-18 21:07:48.781 [TestNG-test-Integration-2] WARN  com.qa.email.reporting.TestListener - SKIP   imagesHaveAltText (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.781 [TestNG-test-Integration-3] WARN  com.qa.email.reporting.TestListener - SKIP   noInsecureLinks (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.781 [TestNG-test-Integration-1] INFO  com.qa.email.reporting.TestListener - START  otpIsPresent
+2026-10-18 21:07:48.781 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  senderMatches
+2026-10-18 21:07:48.781 [TestNG-test-Integration-1] WARN  com.qa.email.reporting.TestListener - SKIP   otpIsPresent (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.782 [TestNG-test-Integration-2] WARN  com.qa.email.reporting.TestListener - SKIP   senderMatches (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
+2026-10-18 21:07:48.783 [TestNG-test-Integration-2] INFO  com.qa.email.reporting.TestListener - START  subjectMatches
+2026-10-18 21:07:48.783 [TestNG-test-Integration-2] WARN  com.qa.email.reporting.TestListener - SKIP   subjectMatches (Mailosaur credentials not set (MAILOSAUR_API_KEY / MAILOSAUR_SERVER_ID) - skipping integration tests)
