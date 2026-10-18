@@ -1,8 +1,18 @@
 # Email Test Automation Framework
 
+Tech Stack
 Java 17 · Maven · TestNG · Mailosaur · AssertJ · Jsoup · Extent Reports · Log4j2
 
-Tests that verify the emails your application sends: subject, sender, body, links, attachments and OTP codes.
+Features:
+1. Retrieve emails from a Mailosaur test inbox.
+2. Validate email subject, sender, recipient, and body.
+3. Extract and validate eight-digit OTPs.
+4. Inspect hyperlinks in HTML emails.
+5. Download and validate email attachments.
+6. Run automated tests through a TestNG suite.
+7. Keep API credentials outside source code using environment variables.
+
+Tests that verify the emails your application sends: subject, sender, body, links, attachments, and OTP codes.
 
 ## Structure
 
